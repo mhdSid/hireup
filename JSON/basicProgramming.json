@@ -1,0 +1,49 @@
+[
+    {
+        "number": 1, 
+        "question": "Which prototype defines a function that returns the sum of two largest integers in an array?", 
+        "codeQuestion": "",
+        "code": [""],
+        "answers": ["void func(int* a)", "void func(int a[])", "int func(int* anData, int size)", "int SumTwoLargest(int a, int b)", "None of the above"], 
+        "results": ["c"] 
+    }, 
+    {
+        "number": 2, 
+        "question": "Which of these is the definition of a function that returns the sum of X largest integers in an array of integers where every integer is between 0 and 33?", 
+        "codeQuestion": "",
+        "code": [""],
+        "answers": ["int func(Array, n)", "int func(int []array, int n)", "int func(int [], int)", "All of the above"], 
+        "results": ["b"]
+    }, 
+    {
+        "number": 3, 
+        "question": "What will be the result of compiling and running the following program?", 
+        "codeQuestion": "Select the one correct answer.",
+        "code": ["JSON/prog1.png"],
+        "answers": [ "The program will fail to compile.", "The program will print mouse, when run.", "The program will print cat, when run.", "The program will print dog, when run.", "The program will randomly print either cat or dog, when run."], 
+        "results": ["c"]
+    }, 
+    {
+        "number": 4, 
+        "question": "Given the following program:", 
+        "codeQuestion": "Select the one correct answer.",
+        "code": ["JSON/prog2.png"],
+        "answers": ["falsetruefalsetrue", "truetruetruetrue", "falsetruetruetrue", "truetruefalsetrue", "None of the above"], 
+        "results": ["d"]
+    }, 
+    {
+        "number": 5, 
+        "question": "Given the following program:", 
+        "codeQuestion": "Select the one correct answer. ",
+        "code": ["JSON/prog3.png"],
+        "answers": [13, 14, 20, 21, 24], 
+        "results": ["a"]
+    }
+]
+
+
+
+
+
+
+

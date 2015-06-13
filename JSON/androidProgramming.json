@@ -1,0 +1,90 @@
+[
+    {
+        "number": 1, 
+        "question": "What is android?", 
+        "codeQuestion": "",
+        "code": [""],
+        "answers": ["It is an open-sourced linux kernel based system that is used on mobile devices and some computers. It’s currently developed by Google.", "Android is an operating system.", "Android is a mobile operating system based on the Linux Kernel and currently developed by Google."], 
+        "results": ["b", "c"] 
+    }, 
+    {
+        "number": 2, 
+        "question": "Android provide a debugging tool called DDMS. What does DDMS stand for?", 
+        "codeQuestion": "",
+        "code": [""],
+        "answers": ["Dalvik Debug Monitor Service. ", "Dalvik Debug Monitoring Service.", "Debug Dalvik Monitor Server.", "Dalvik Debug Monitor Server."], 
+        "results": ["a"]
+    }, 
+    {
+        "number": 3, 
+        "question": "From the options below. What two choices aren’t considered android application components?", 
+        "codeQuestion": "",
+        "code": [""],
+        "answers": [ "Services", "Broadcast Sensors", "Content Processes", "Broadcast Receivers", "Intents", "Activities"], 
+        "results": ["b", "c"]
+    }, 
+    {
+        "number": 4, 
+        "question": "Describe the android application lifecycle:", 
+        "codeQuestion": "",
+        "code": [""],
+        "answers": ["onCreate() —> onStart() —> onResume() —> onPause() —> onStop() —> onDestroy()", "onCreate() —> onStart() —> onPause() —> onResume() —> onStop() —> onDestroy()", "onCreate() —> onStart() —> onResume() —> onPause() —> onDestroy() —> onStop()", "onCreate() —> onResume() —> onStart() —> onPause() —> onStop() —> onDestroy()"], 
+        "results": ["a"]
+    }, 
+    {
+        "number": 5, 
+        "question": "Usually, the system calls onStop() and onPause() before onDestroy(). In what case the onDestroy() wouldn’t be called?", 
+        "codeQuestion": " ",
+        "code": [""],
+        "answers": ["If there isn’t an onDestroy() method", "If you press the home button and leave the app, onDestroy() wouldn’t be called", "If there isn't an onCreate() method", " If the app detects an error during onCreate() and calls finish() as a result.", "None of the above"], 
+        "results": ["d"]
+    },
+    {
+        "number": 6, 
+        "question": "What data is contained in the AndroidManifest.xml file?", 
+        "codeQuestion": "",
+        "code": [""],
+        "answers": ["Data about the components used in the application", "Data about the application and how it’s going to be built", "All of the above"], 
+        "results": ["a"] 
+    }, 
+    {
+        "number": 7, 
+        "question": "What is R.java file used for?", 
+        "codeQuestion": "",
+        "code": [""],
+        "answers": ["It’s used to provide access to all the resources and objects such as XML ids, colours, drawables, layouts, strings, arrays, by using findViewById() method.", "It’s where the XML ids are stored.", "It’s where the onCreate() method is written.", "a and c", "b and c", "None of the above"], 
+        "results": ["a"]
+    }, 
+    {
+        "number": 8, 
+        "question": "How do we make an image element appear on the screen of an android device?", 
+        "codeQuestion": "",
+        "code": [""],
+        "answers": [ "Declare UI elements in the xml file related to the activity where the image is going to be shown", "Create UI elements programatically and let the app instantiate them at runtime.", "Then drag the image on the palette view and run the application", "All of the above", "a and b"], 
+        "results": ["e"]
+    }, 
+    {
+        "number": 9, 
+        "question": "Why do we use a REST API that runs over HTTP?", 
+        "codeQuestion": "",
+        "code": [""],
+        "answers": ["To exchange data, represented as an XML document or as a JSON object, between remote servers.", "To issue a request to a remote database.", "To retrieve an http response from a remote database."], 
+        "results": ["a"]
+    }, 
+    {
+        "number": 10, 
+        "question": "Suppose that you went to company XY to buy yourself a new car. The company is willing to give you a loan for the total value of the car, that is payed on a monthly basis. You have a previously written class called CarPayment.java that has three doubles: price, downPayment, and interestRate. The class has accessors, mutators, and two other methods.", 
+        "codeQuestion": "What is true about this code?",
+        "code": ["JSON/android.png"],
+        "answers": ["temp3 is the interest rate.", "This code is going to display the price of the car, the first downpayment, and the interest rate that’s related to the payment of the loan. Once pressed, the button will open  another view.", "temp1 is a String object.", "The app will crash because the ResultActivity.class doesn’t exist.", "CarPayment object has three private attributes. ", "The ResultActivity.class displays two Strings on the screen. ", "The ResultActivity.class displays a double and a string on the screen.", "The app will crash because ResultActivity.class doesn’t exist.", "CarPayment object has three private attributes which are price, downPayment, and interestRate. ", "intent is an explicit intent that indicates exactly which activity class it uses. ", "Once the button is pressed, the loan’s duration and value are displayed in a new activity.", "The user inputs three values. Simply, c.calculate() calculates the total amount of the loan and c.calculate1() calculates the duration of the loan.", "The user inputs three values. Simply, c.calculate() calculates the total amount of the loan and c.calculate1() returns the downPayment of the loan.", "This code is going to open a new activity where you input the price of the car, the first downpayment, and the interest rate that’s related to the loan. Once pressed, the button will display the price and the downpayment in another activity.", "temp2 is the down payment.", "intent.putExtra() is used twice. It stores one double ss and one integer ss1, that are to be used later as strings.", "The app will normally run. ", "An exception is thrown after establishing a connection with the database.", "Once pressed, the button will open a new application view where you input the price of the car, the first downpayment, and the interest rate that’s related to the loan. The button calculate displays, in a new activity, the loan’s total value and the downpayment.", "The application will crash.", "The ResultActivity.class retrieves two parameters from the intent object using intent.getStringExtra(String) and displays the loan’s value and downpayment.", "The ResultActivity.class retrieves two parameters from the intent object using intent.getString() and displays the loan’s value and duration.", "intent is an implicit intent that indicates exactly which activity class it uses.", "Once pressed, the button will open a new application view where you input the price of the car, the first downpayment, and the interest rate that’s related to the loan. The button calculate displays, in a new activity, the loan’s total value and duration per month.", "temp3 is the interest rate stored as a double.", "The total value of the loan is calculated through the object “c”  and stored in res1.", "The button opens a new activity. ", "The button opens a new activity and displays two calculated values. ", "The button doesn’t function properly because it shouldn’t take a new View object.", "The app will crash because the main class is public and the intent object doesn’t accept a public class when it’s initialised. ", "The downpayment is stored in res2.", "The downpayment is stored in res.", "The total value of the loan is stored in res.  ", "d is the price stored as a double.", "The main class doesn’t have to be public.", "The ResultActivity.class retrieves two parameters from the intent object using intent.getStringExtra(String) and displays the loan’s value and duration." ], 
+        "results": [""]
+    }
+]
+
+
+
+
+
+
+
+

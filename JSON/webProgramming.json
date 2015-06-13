@@ -1,0 +1,89 @@
+[
+    {
+        "number": 1, 
+        "question": "Frankly, web developer duties are:", 
+        "codeQuestion": "",
+        "code": [""],
+        "answers": ["In a company, web-developers are just programmers who develop web applications. They don’t have to do with anything else.", "Designing and programming web applications, from scratch.", "Designing, programming, testing, and debugging web applications.", "Developing appropriate code structures to solve specific tasks.", "Coordinate with other people to develop web projects. ", "Coordinate with other designers and programmers to develop web projects.", "Fix bugs. ", "Fix bugs, troubleshoot and resolve problems. ", "In a company, web-developers are programmers who deploy web applications. They don’t have to do with anything else.", "In a company, web-developers are people who design, develop, test, and debug web applications. They don’t have to do with anything else.", "In a company, web-developers are people who design, develop, test, and debug web applications. They might have other capabilities too. Who knows?!"], 
+        "results": ["c", "d", "f", "h", "k"] 
+    }, 
+    {
+        "number": 2, 
+        "question": "What is HTML?", 
+        "codeQuestion": "",
+        "code": [""],
+        "answers": ["HTML is the programming language of the web.", "HTML is the programming language of the web. It is the dominant markup language for creating websites and anything that can be viewed in a web browser.", "HTML stands for hyperText Markup Language. It is the dominant programming language for creating websites and anything that can be viewed in a web browser.", "HTML is a markup language that web browsers use to interpret and compose text, images and other material into visual or audible web pages. ", "a and d", "b and d"], 
+        "results": ["d"] 
+    }, 
+    {
+        "number": 3, 
+        "question": "How many HTML tags are should be used for the most simple of web pages?", 
+        "codeQuestion": "",
+        "code": [""],
+        "answers": [6, 4, 2, 8, 5], 
+        "results": ["d"] 
+    }, 
+    {
+        "number": 4, 
+        "question": "Given the following code:", 
+        "codeQuestion": "How many errors does this code have? and what’s true about it?",
+        "code": ["JSON/web1.png"],
+        "answers": ["It has no errors.", "1", "14", "20", "22", "21", "16", "3", "6", "5", "10", "11", "50", "2", "The flash player should work properly.", "The app logic is synchronous.", "THE flash player is missing 1 function.", "The flash player is missing 2 functions.", "The flash player is missing 3 functions.", "The app logic is asynchronous. ", "It’s responsive. When window size changes, the size of the div where the images are displayed also changes.", "It’s responsive and works offline. When window size changes, the size of the div where the DOM elements are displayed also changes.", "If the code was error free, it will directly display 4 DOM elements when the screen loads.", "If the code was error free, it will directly display 3 DOM elements.", "If the code was error free, it will directly display 2 DOM elements.", "It’s irresponsive. ", "It’s written in php.", "It’s written in java.", "It’s written in AngularJS, flash, and html5.", "The app logic is written in AngularJS.", "It’s written in JQuerry.", "It’s written in JQuerry version 1.1.11."], 
+        "results": [""] 
+    }, 
+    {
+        "number": 5, 
+        "question": "What is Node.js?", 
+        "codeQuestion": "",
+        "code": [""],
+        "answers": ["Node.js is an open source, cross-platform runtime environment for server-side and networking applications.  ", " Node.js is an open source database that focuses on ease of use and on being 'a database that completely embraces the web'.", "Node.js is the programming language of the web.", "Event-driven I/O server-side JavaScript environment based on V8. "], 
+        "results": ["a", "d"] 
+    },
+    {
+        "number": 6, 
+        "question": "What makes CouchDB different than other database management systems?", 
+        "codeQuestion": "",
+        "code": [""],
+        "answers": ["It’s relaxing. ", "It has a built-in replication support (i.e. Master-Master Replication & Master-Slave Replication) with one master per slave, many slaves per master.", "It’s sql queries are faster than other database management systems.", "It’s a NoSQL database.", "Retrieval of data is modeled in means other than the tabular relations used in relational databases.", "Powerful mapping of data to allow querying, combining, and filtering the information. ", "Flexible document-based structure eliminates the need to worry about the structure of data, either before or during the application development. ", "It uses JSON to store data. ", "It uses Javascript as its query language. ", "It uses HTTP for an API."], 
+        "results": ["a", "d", "e", "f", "g", "h", "i", "j"] 
+    },
+    {
+        "number": 7, 
+        "question": "What does this code do?", 
+        "codeQuestion": "",
+        "code": ["JSON/web2.png"],
+        "answers": ["It creates a database called bananas.", "IT issues a PUT on 127.0.0.1 over HTTP.", "It overrides an existing database called bananas.", "b and c"], 
+        "results": ["a"] 
+    },
+    {
+        "number": 8, 
+        "question": "What this document can be used for?", 
+        "codeQuestion": "",
+        "code": ["JSON/web3.png"],
+        "answers": ["It’s a database. ", "It’s a JSON file.", "It’s a simple file having a specific id.", "A simple SQL query will send the whole document as a JSON object to the client.", "Once the database receives a hit, the whole document will be sent as a JSON object to the client. ", "A simple SQL query will send the file to the client. ", "a, b, and e", "b and c", "a and d", "a and f"], 
+        "results": ["a", "b", "e", "h"] 
+    },
+    {
+        "number": 9, 
+        "question": "what is '[]' used for?", 
+        "codeQuestion": "",
+        "code": [""],
+        "answers": ["To declare an array object.", "To declare an empty reference.", "To declare a null object. ", "To declare an empty reference of an empty object.", "All of the above", "None of the above"], 
+        "results": ["a"] 
+    },
+    {
+        "number": 10, 
+        "question": "Is 'false' false?", 
+        "codeQuestion": "",
+        "code": [""],
+        "answers": ["True", "False"], 
+        "results": ["b"] 
+    }
+]
+
+
+
+
+
+
+

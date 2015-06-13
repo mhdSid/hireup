@@ -1,0 +1,48 @@
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<div class="jumbotron col-lg-8 col-md-8 col-sm-9 col-xs-10" id = "questionnaireQuest" >
+
+
+	<h4 id="questionnaireQuestHeader">{{questionss.question}}</h4>
+
+
+</div>
+
+
+
+
+<div id="qqq">
+
+<div ng-repeat="answer in questionss.possibleAnswers">
+	<textarea ng-show="textarea == 33" ng-click="" name="textarea1" id="textarea">
+	</textarea>
+	 
+	<button id="button{{$index}}" type="button" class="btn btn-default questionnaireButton" 
+	ng-click="next()" ng-hide="lengthh == 1" value="{{answer}}">{{answer}}
+	</button> <br> <br>
+</div>
+
+</div>
+
+
+
+<div id="ballsss" class="row">
+	<div ng-repeat = "question in questionnaires" >
+		<div class="ball" id="ball{{$index}}">
+	</div>
+</div>
+
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+[
+    {
+        "number": 1, 
+        "question": "What is swift?", 
+        "codeQuestion": "",
+        "code": [""],
+        "answers": ["Swift is an innovative new programming language for Cocoa and Cocoa Touch. ", "Swift is a new operating system developed by Apple to run big and heavy objective-c applications.", "Swift is a programming language designed by Apple. "], 
+        "results": ["a", "c"] 
+    }, 
+    {
+        "number": 2, 
+        "question": "Consider the following code:", 
+        "codeQuestion": "What is wrong about this code?",
+        "code": ["JSON/code2.png"],
+        "answers": ["UInt should be written as Int instead because were the code doesn’t intend to display a integer value on the UI screen.", "“let” should be removed from every instruction, because, similar to objective-c, variables shouldn’t be constant.", "The value of result. Swift doesn’t define any implicit cast and requires explicit conversion between data types.", "a and d", "All of the above"], 
+        "results": ["c"] 
+    }, 
+    {
+        "number": 3, 
+        "question": "In how many ways can we create an empty array in swift?", 
+        "codeQuestion": "",
+        "code": [""],
+        "answers": [1, 2, 3, 4, 5, 6], 
+        "results": ["b", "c"] 
+    }, 
+   {
+        "number": 4, 
+        "question": "Why do we use 'let' in swift?", 
+        "codeQuestion": "",
+        "code": [""],
+        "answers": ["To initialise a variable.", "To declare a variable with a fixed value.", "To declare a variable with a constant value.", "a and c", "All of the above", "For immutability", "For mutability"], 
+        "results": ["b", "c", "f"] 
+    }, 
+    {
+        "number": 5, 
+        "question": "Consider the following code:", 
+        "codeQuestion": "What is true about this code?",
+        "code": ["JSON/code3.png"],
+        "answers": ["The method 'append' adds a new value to the end of the array.", "Swift defines the AnyObject type alias to represent instances of any reference type, and it’s internally defined as a protocol.", "Swift defines the AnyObject type alias to represent instances of type AnyObject, which makes swift different than objective-c.", "Swift automatically bridges number types to NSNumber, strings to NSString, arrays to NSArray, and dictionaries to NSDictionary.", "Swift automatically bridges number types to NSNumber, strings to NSString, arrays to NSArray, and dictionaries to NSDictionary, which are all reference types.", "a, c, and d", "None of the above"], 
+        "results": ["a", "b", "d", "e"] 
+    },
+    {
+        "number": 6, 
+        "question": "Given the following swift code:", 
+        "codeQuestion": "What’s true about this code? ",
+        "code": ["JSON/code1.png"],
+        "answers": ["It fills a two-dimensional array of cats, having xx as the rows size and yy as the columns size.", "The program throws a NullPointerException at runtime.", "The program crashes.", "It works properly.", "The pictures will be displayed at the same location at coordinates (50, 50), having a random size.", "The program throws an ArrayOutOfBound exception at runtime.", "The instruction that assigns a float value to xx should be var xx = (CGFloat)( Int(arc4random_uniform(Int(250))) ). So car yy should also be changed, resulting in crashing the application.", "The program displays 10 cats on random locations on the screen.", "The program won’t run because the last instruction should be self.view.add(bgImage!).", "The program won’t run because the last instruction should be self.view.addSubview(bgImage).", "cats.append(bgImage!) can be replaced by cats.addObjectAtIndex(bgImage!,  i)", "cats.append(bgImage!) can be replaced by cats += bgImage! ", "The program works properly", "It creates 10 times a new value of image, but same as the old one. ", "The pictures won’t fit the screen. ", "“?” means that an object can’t be nil.", "The program won’t work because adding “!” to bgImage will wrap the object, which means that it can be nil."], 
+        "results": [""] 
+    }, 
+    {
+        "number": 7, 
+        "question": "What does this code do?", 
+        "codeQuestion": "",
+        "code": ["JSON/ios1.png", "JSON/ios2.png", "JSON/ios3.png"],
+        "answers": ["It throws an error at runtime.", "It doesn’t work properly.", "It has a missing method.", "It displays a timer that is infinitely running.", "The user taps to incremet the timer, double taps to stop the timer, and swipes to reset the timer.", "‘rightSwipe' should be written differently.", "The function stop should be written differently. ", "‘!' should be removed in the first line of the 'start' method.", "‘let' should be removed from the initialisation of ‘rightSwipe'.", "It has a missing library. "], 
+        "results": [""] 
+    }
+]
+
+
+
+
+
+
+
+

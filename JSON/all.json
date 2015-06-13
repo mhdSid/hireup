@@ -1,0 +1,420 @@
+[   
+    { 
+        "count": 1,
+        "question": "Which prototype defines a function that returns the sum of two largest integers in an array?", 
+        "codeQuestion": "",
+        "code": [],
+        "possibleAnswers": ["void func(int* a)", "void func(int a[])", "int func(int* anData, int size)", "int SumTwoLargest(int a, int b)", "None of the above"], 
+        "correctAnswers": [3],
+        "type": "basic",
+        "duration": 15
+    }, 
+
+    {
+        "count": 2,
+        "question": "Which of these is the definition of a function that returns the sum of X largest integers in an array of integers where every integer is between 0 and 33?", 
+        "codeQuestion": "",
+        "code": [],
+        "possibleAnswers": ["int func(Array, n)", "int func(int []array, int n)", "int func(int [], int)", "All of the above"], 
+        "correctAnswers": [2],
+        "type": "basic",
+        "duration": 15
+    }, 
+    { 
+        "count": 3,
+        "question": "What will be the result of compiling and running the following program?", 
+        "codeQuestion": "Select the one correct answer.",
+        "code": ["JSON/prog1.png"],
+        "possibleAnswers": [ "The program will fail to compile.", "The program will print mouse, when run.", "The program will print cat, when run.", "The program will print dog, when run.", "The program will randomly print either cat or dog, when run."], 
+        "correctAnswers": [3],
+        "type": "basic",
+        "duration": 25
+    }, 
+    {
+        "count": 4,
+        "question": "Given the following program:", 
+        "codeQuestion": "Select the one correct answer.",
+        "code": ["JSON/prog2.png"],
+        "possibleAnswers": ["falsetruefalsetrue", "truetruetruetrue", "falsetruetruetrue", "truetruefalsetrue", "None of the above"], 
+        "correctAnswers": [4],
+        "type": "basic",
+        "duration": 25
+    }, 
+    {
+        "count": 5,
+        "question": "Given the following program:", 
+        "codeQuestion": "Select the one correct answer. ",
+        "code": ["JSON/prog3.png"],
+        "possibleAnswers": [13, 14, 20, 21, 24], 
+        "correctAnswers": [1],
+        "type": "basic",
+        "duration": 25
+    },
+    {
+        "count": 6,
+        "question": "What is android?", 
+        "codeQuestion": "",
+        "code": [],
+        "possibleAnswers": ["It is an open-sourced linux kernel based system that is used on mobile devices and some computers. It’s currently developed by Google.", "Android is an operating system.", "Android is a mobile operating system based on the Linux Kernel and currently developed by Google."], 
+        "correctAnswers": [2, 3],
+        "type": "android",
+        "duration": 20
+    }, 
+    {
+        "count": 7,
+        "question": "Android provide a debugging tool called DDMS. What does DDMS stand for?", 
+        "codeQuestion": "",
+        "code": [],
+        "possibleAnswers": ["Dalvik Debug Monitor Service. ", "Dalvik Debug Monitoring Service.", "Debug Dalvik Monitor Server.", "Dalvik Debug Monitor Server."], 
+        "correctAnswers": [1],
+        "type": "android",
+        "duration": 15
+    }, 
+    { 
+        "count": 8,
+        "question": "From the options below. What two choices aren’t considered android application components?", 
+        "codeQuestion": "",
+        "code": [],
+        "possibleAnswers": [ "Services", "Broadcast Sensors", "Content Processes", "Broadcast Receivers", "Intents", "Activities"], 
+        "correctAnswers": [2, 3],
+        "type": "android",
+        "duration": 15
+    }, 
+    {  
+        "count": 9,
+        "question": "Describe the android application lifecycle:", 
+        "codeQuestion": "",
+        "code": [],
+        "possibleAnswers": ["onCreate() —> onStart() —> onResume() —> onPause() —> onStop() —> onDestroy()", "onCreate() —> onStart() —> onPause() —> onResume() —> onStop() —> onDestroy()", "onCreate() —> onStart() —> onResume() —> onPause() —> onDestroy() —> onStop()", "onCreate() —> onResume() —> onStart() —> onPause() —> onStop() —> onDestroy()"], 
+        "correctAnswers": [1],
+        "type": "android",
+        "duration": 15
+    }, 
+    {
+        "count": 10,
+        "question": "Usually, the system calls onStop() and onPause() before onDestroy(). In what case the onDestroy() wouldn’t be called?", 
+        "codeQuestion": "",
+        "code": [],
+        "possibleAnswers": ["If there isn’t an onDestroy() method", "If you press the home button and leave the app, onDestroy() wouldn’t be called", "If there isn't an onCreate() method", " If the app detects an error during onCreate() and calls finish() as a result.", "None of the above"], 
+        "correctAnswers": [4],
+        "type": "android",
+        "duration": 25
+    },
+    { 
+        "count": 11,
+        "question": "What data is contained in the AndroidManifest.xml file?", 
+        "codeQuestion": "",
+        "code": [],
+        "possibleAnswers": ["Data about the components used in the application", "Data about the application and how it’s going to be built", "All of the above"], 
+        "correctAnswers": [1],
+        "type": "android",
+        "duration": 25
+    }, 
+    { 
+        "count": 12,
+        "question": "What is R.java file used for?", 
+        "codeQuestion": "",
+        "code": [],
+        "possibleAnswers": ["It’s used to provide access to all the resources and objects such as XML ids, colours, drawables, layouts, strings, arrays, by using findViewById() method.", "It’s where the XML ids are stored.", "It’s where the onCreate() method is written.", "a and c", "b and c", "None of the above"], 
+        "correctAnswers": [1],
+        "type": "android",
+        "duration": 25
+    }, 
+    {
+        "count": 13,
+        "question": "How do we make an image element appear on the screen of an android device?", 
+        "codeQuestion": "",
+        "code": [],
+        "possibleAnswers": [ "Declare UI elements in the xml file related to the activity where the image is going to be shown", "Create UI elements programatically and let the app instantiate them at runtime.", "Then drag the image on the palette view and run the application", "All of the above", "a and b"], 
+        "correctAnswers": [5],
+        "type": "android",
+        "duration": 25
+    }, 
+    {
+        "count": 14,
+        "question": "Why do we use a REST API that runs over HTTP?", 
+        "codeQuestion": "",
+        "code": [],
+        "possibleAnswers": ["To exchange data, represented as an XML document or as a JSON object, between remote servers.", "To issue a request to a remote database.", "To retrieve an http response from a remote database."], 
+        "correctAnswers": [1],
+        "type": "android",
+        "duration": 20
+    }, 
+    {
+        "count": 15,
+        "question": "Suppose that you went to company XY to buy yourself a new car. The company is willing to give you a loan for the total value of the car, that is payed on a monthly basis. You have a previously written class called CarPayment.java that has three doubles: price, downPayment, and interestRate. The class has accessors, mutators, and two other methods.", 
+        "codeQuestion": "What is true about this code?",
+        "code": ["JSON/android.png"],
+        "possibleAnswers": ["temp3 is the interest rate.", "This code is going to display the price of the car, the first downpayment, and the interest rate that’s related to the payment of the loan. Once pressed, the button will open  another view.", "temp1 is a String object.", "The app will crash because the ResultActivity.class doesn’t exist.", "CarPayment object has three private attributes. ", "The ResultActivity.class displays two Strings on the screen. ", "The ResultActivity.class displays a double and a string on the screen.", "The app will crash because ResultActivity.class doesn’t exist.", "CarPayment object has three private attributes which are price, downPayment, and interestRate. ", "intent is an explicit intent that indicates exactly which activity class it uses. ", "Once the button is pressed, the loan’s duration and value are displayed in a new activity.", "The user inputs three values. Simply, c.calculate() calculates the total amount of the loan and c.calculate1() calculates the duration of the loan.", "The user inputs three values. Simply, c.calculate() calculates the total amount of the loan and c.calculate1() returns the downPayment of the loan.", "This code is going to open a new activity where you input the price of the car, the first downpayment, and the interest rate that’s related to the loan. Once pressed, the button will display the price and the downpayment in another activity.", "temp2 is the down payment.", "intent.putExtra() is used twice. It stores one double ss and one integer ss1, that are to be used later as strings.", "The app will normally run. ", "An exception is thrown after establishing a connection with the database.", "Once pressed, the button will open a new application view where you input the price of the car, the first downpayment, and the interest rate that’s related to the loan. The button calculate displays, in a new activity, the loan’s total value and the downpayment.", "The application will crash.", "The ResultActivity.class retrieves two parameters from the intent object using intent.getStringExtra(String) and displays the loan’s value and downpayment.", "The ResultActivity.class retrieves two parameters from the intent object using intent.getString() and displays the loan’s value and duration.", "intent is an implicit intent that indicates exactly which activity class it uses.", "Once pressed, the button will open a new application view where you input the price of the car, the first downpayment, and the interest rate that’s related to the loan. The button calculate displays, in a new activity, the loan’s total value and duration per month.", "temp3 is the interest rate stored as a double.", "The total value of the loan is calculated through the object “c”  and stored in res1.", "The button opens a new activity. ", "The button opens a new activity and displays two calculated values. ", "The button doesn’t function properly because it shouldn’t take a new View object.", "The app will crash because the main class is public and the intent object doesn’t accept a public class when it’s initialised. ", "The downpayment is stored in res2.", "The downpayment is stored in res.", "The total value of the loan is stored in res.  ", "d is the price stored as a double.", "The main class doesn’t have to be public.", "The ResultActivity.class retrieves two parameters from the intent object using intent.getStringExtra(String) and displays the loan’s value and duration." ], 
+        "correctAnswers": [1, 3, 5, 6, 9, 10, 11, 12, 15, 17, 27, 28, 33, 35, 36],
+        "type": "android",
+        "duration": 360
+    },
+    {
+        "count": 16,
+        "question": "What is swift?", 
+        "codeQuestion": "",
+        "code": [],
+        "possibleAnswers": ["Swift is an innovative new programming language for Cocoa and Cocoa Touch. ", "Swift is a new operating system developed by Apple to run big and heavy objective-c applications.", "Swift is a programming language designed by Apple. "], 
+        "correctAnswers": [1, 3],
+        "type": "swift",
+        "duration": 20
+    }, 
+    {
+        "count": 17,
+        "question": "Consider the following code:", 
+        "codeQuestion": "What is wrong about this code?",
+        "code": ["JSON/code2.png"],
+        "possibleAnswers": ["UInt should be written as Int instead because were the code doesn’t intend to display a integer value on the UI screen.", "“let” should be removed from every instruction, because, similar to objective-c, variables shouldn’t be constant.", "The value of result. Swift doesn’t define any implicit cast and requires explicit conversion between data types.", "a and d", "All of the above"], 
+        "correctAnswers": [3],
+        "type": "swift",
+        "duration": 25
+    }, 
+    {
+        "count": 18,
+        "question": "In how many ways can we create an empty array in swift?", 
+        "codeQuestion": "",
+        "code": [],
+        "possibleAnswers": [1, 2, 3, 4, 5, 6], 
+        "correctAnswers": [2, 3],
+        "type": "swift",
+        "duration": 15
+    }, 
+   {
+        "count": 19,
+        "question": "Why do we use 'let' in swift?", 
+        "codeQuestion": "",
+        "code": [],
+        "possibleAnswers": ["To initialise a variable.", "To declare a variable with a fixed value.", "To declare a variable with a constant value.", "a and c", "All of the above", "For immutability", "For mutability"], 
+        "correctAnswers": [2, 3, 6],
+        "type": "swift",
+        "duration": 20
+    }, 
+    {
+        "count": 20,
+        "question": "Consider the following code:", 
+        "codeQuestion": "What is true about this code?",
+        "code": ["JSON/code3.png"],
+        "possibleAnswers": ["The method 'append' adds a new value to the end of the array.", "Swift defines the AnyObject type alias to represent instances of any reference type, and it’s internally defined as a protocol.", "Swift defines the AnyObject type alias to represent instances of type AnyObject, which makes swift different than objective-c.", "Swift automatically bridges number types to NSNumber, strings to NSString, arrays to NSArray, and dictionaries to NSDictionary.", "Swift automatically bridges number types to NSNumber, strings to NSString, arrays to NSArray, and dictionaries to NSDictionary, which are all reference types.", "a, c, and d", "None of the above"], 
+        "correctAnswers": [1, 2, 4, 5],
+        "type": "swift",
+        "duration": 45
+    },
+    {
+        "count": 21,
+        "question": "Given the following swift code:", 
+        "codeQuestion": "What’s true about this code? ",
+        "code": ["JSON/code1.png"],
+        "possibleAnswers": ["It fills a two-dimensional array of cats, having xx as the rows size and yy as the columns size.", "The program throws a NullPointerException at runtime.", "The program crashes.", "It works properly.", "The pictures will be displayed at the same location at coordinates (50, 50), having a random size.", "The program throws an ArrayOutOfBound exception at runtime.", "The instruction that assigns a float value to xx should be var xx = (CGFloat)( Int(arc4random_uniform(Int(250))) ). So Var yy should also be changed, resulting in crashing the application.", "The program displays 10 cats on random locations on the screen.", "The program won’t run because the last instruction should be self.view.add(bgImage!).", "The program won’t run because the last instruction should be self.view.addSubview(bgImage).", "cats.append(bgImage!) can be replaced by cats.addObjectAtIndex(bgImage!,  i)", "cats.append(bgImage!) can be replaced by cats += bgImage! ", "The program works properly", "It creates 10 times a new value of image, but same as the old one. ", "The pictures won’t fit the screen. ", "“?” means that an object can’t be nil.", "The program won’t work because adding “!” to bgImage will wrap the object, which means that it can be nil."], 
+        "correctAnswers": [8, 12, 13,14],
+        "type": "swift",
+        "duration": 131
+    }, 
+    {
+        "count": 22,
+        "question": "What does this code do?", 
+        "codeQuestion": "",
+        "code": ["JSON/ios1.png", "JSON/ios2.png", "JSON/ios3.png"],
+        "possibleAnswers": ["It throws an error at runtime.", "It doesn’t work properly.", "It has a missing method.", "It displays a timer that is infinitely running.", "The user taps to incremet the timer, double taps to stop the timer, and swipes to reset the timer.", "‘rightSwipe' should be written differently.", "The function stop should be written differently. ", "‘!' should be removed in the first line of the 'start' method.", "‘let' should be removed from the initialisation of ‘rightSwipe'.", "It has a missing library. "], 
+        "correctAnswers": [1, 2, 3 ,6, 10],
+        "type": "swift",
+        "duration": 333
+    },
+    {
+        "count": 23,
+        "question": "Web developer duties are:", 
+        "codeQuestion": "",
+        "code": [],
+        "possibleAnswers": ["In a company, web-developers are just programmers who develop web applications. They don’t have to do with anything else.", "Designing and programming web applications, from scratch.", "Designing, programming, testing, and debugging web applications.", "Developing appropriate code structures to solve specific tasks.", "Coordinate with other people to develop web projects. ", "Coordinate with other designers and programmers to develop web projects.", "Fix bugs. ", "Fix bugs, troubleshoot and resolve problems. ", "In a company, web-developers are programmers who deploy web applications. They don’t have to do with anything else.", "In a company, web-developers are people who design, develop, test, and debug web applications. They don’t have to do with anything else.", "In a company, web-developers are people who design, develop, test, and debug web applications. They might have other capabilities too. Who knows?!"], 
+        "correctAnswers": [3, 4, 6, 8, 11],
+        "type": "web",
+        "duration": 31
+    }, 
+    {
+        "count": 24,
+        "question": "What is HTML?", 
+        "codeQuestion": "",
+        "code": [],
+        "possibleAnswers": ["HTML is the programming language of the web.", "HTML is the programming language of the web. It is the dominant markup language for creating websites and anything that can be viewed in a web browser.", "HTML stands for hyperText Markup Language. It is the dominant programming language for creating websites and anything that can be viewed in a web browser.", "HTML is a markup language that web browsers use to interpret and compose text, images and other material into visual or audible web pages. ", "a and d", "b and d"], 
+        "correctAnswers": [4],
+        "type": "web",
+        "duration": 20
+    }, 
+    {
+        "count": 25,
+        "question": "How many HTML tags are should be used for the most simple of web pages?", 
+        "codeQuestion": "",
+        "code": [],
+        "possibleAnswers": [6, 4, 2, 8, 5], 
+        "correctAnswers": [4],
+        "type": "web",
+        "duration": 15
+    }, 
+    {
+        "count": 26,
+        "question": "Given the following code:", 
+        "codeQuestion": "How many bugs exist does this code have? and what’s true about it?",
+        "code": ["JSON/web1.png"],
+        "possibleAnswers": ["It has no errors.", "1", "14", "20", "22", "21", "16", "3", "6", "5", "10", "11", "50", "2", "The flash player should work properly.", "The app logic is synchronous.", "THE flash player is missing 1 function.", "The flash player is missing 2 functions.", "The flash player is missing 3 functions.", "The app logic is asynchronous. ", "It’s responsive. When window size changes, the size of the div where the images are displayed also changes.", "It’s responsive and works offline. When window size changes, the size of the div where the DOM elements are displayed also changes.", "If the code was error free, it will directly display 4 DOM elements when the screen loads.", "If the code was error free, it will directly display 3 DOM elements.", "If the code was error free, it will directly display 2 DOM elements.", "It’s irresponsive. ", "It’s written in php.", "It’s written in java.", "It’s written in AngularJS, flash, and html5.", "The app logic is written in AngularJS.", "It’s written in JQuerry.", "It’s written in JQuerry version 1.1.11."], 
+        "correctAnswers": [6, 20, 25, 26, 30],
+        "type": "web",
+        "duration": 333
+    }, 
+    {
+        "count": 27,
+        "question": "What is Node.js?", 
+        "codeQuestion": "",
+        "code": [],
+        "possibleAnswers": ["Node.js is an open source, cross-platform runtime environment for server-side and networking applications.  ", " Node.js is an open source database that focuses on ease of use and on being 'a database that completely embraces the web'.", "Node.js is the programming language of the web.", "Event-driven I/O server-side JavaScript environment based on V8. "], 
+        "correctAnswers": [1, 4],
+        "type": "web",
+        "duration": 25
+    },
+    {
+        "count": 28,
+        "question": "What makes CouchDB different than other database management systems?", 
+        "codeQuestion": "",
+        "code": [],
+        "possibleAnswers": ["It’s relaxing.", "It has a built-in replication support (i.e. Master-Master Replication & Master-Slave Replication) with one master per slave, many slaves per master.", "It’s sql queries are faster than other database management systems.", "It’s a NoSQL database.", "Retrieval of data is modeled in means other than the tabular relations used in relational databases.", "Powerful mapping of data to allow querying, combining, and filtering the information. ", "Flexible document-based structure eliminates the need to worry about the structure of data, either before or during the application development. ", "It uses JSON to store data. ", "It uses Javascript as its query language. ", "It uses HTTP for an API."], 
+        "correctAnswers": [1, 4, 5, 6, 7, 8, 9, 10],
+        "type": "web",
+        "duration": 25
+    },
+    {
+        "count": 29,
+        "question": "what is '[]' used for?", 
+        "codeQuestion": "",
+        "code": [],
+        "possibleAnswers": ["To declare an array object.", "To declare an empty reference.", "To declare a null object. ", "To declare an empty reference of an empty object.", "All of the above", "None of the above"], 
+        "correctAnswers": [1],
+        "type": "web",
+        "duration": 25
+    },
+    {
+        "count": 30,
+        "question": "Is 'false' false?", 
+        "codeQuestion": "",
+        "code": [],
+        "possibleAnswers": ["True", "False"], 
+        "correctAnswers": [2],
+        "type": "web",
+        "duration": 10
+    },
+    {
+        "count": 31,
+        "question": "Imagine you have 10 computers and a scale. Eight of these pc's weigh the same and two that doesn’t. How would you find the odd ones?", 
+        "codeQuestion": "",
+        "code": [],
+        "possibleAnswers": ["Divide the computers into two sets. One with 8 pc’s and one with 2 pc’s. Then find which set weighs more.", "Put 8 pc’s on one scale pan and 2 pc’s on one scale pan. Then find which pan weighs more.", "Weigh them one-by-one. Find the pair that weighs less.", "Simply, divide them into sets: one set with all pc’s that have the same weight, and another set with two pc’s that have a different weight."], 
+        "correctAnswers": [3],
+        "type": "puzzle",
+        "duration": 33
+
+    },
+    {
+        "count": 32,
+        "question": "What is the next suitable number in the following sequence: 1, 11, 21, ...", 
+        "codeQuestion": "",
+        "code": [],
+        "possibleAnswers": [231, 1111, 1110, 1211, 111221], 
+        "correctAnswers": [4],
+        "type": "puzzle",
+        "duration": 33
+
+    },
+    {
+        "count": 33,
+        "question": "There are two apples, two bananas, and four monkeys. There is also four restaurants. How would you be able to feed the monkeys what they need?", 
+        "codeQuestion": "",
+        "code": [],
+        "possibleAnswers": ["Give two bananas for two monkeys, and two apples for the other two.", "Give each two monkeys one banana.", "Take each monkey to a restaurant.", "Take two monkeys to one restaurant."], 
+        "correctAnswers": [2],
+        "type": "puzzle",
+        "duration": 33
+
+    },
+    {
+        "count": 34,
+        "question": "If you were given a task to be done in 10 days, what’s the probability of not finishing the task?", 
+        "codeQuestion": "",
+        "code": [],
+        "possibleAnswers": ["0%", "10%", "20%", "30%", "50%", "75%", "95%"], 
+        "correctAnswers": [""],
+        "type": "questionnaire",
+        "duration": ""
+
+    },
+    {
+        "count": 35,
+        "question": "What would you do if you didn’t finish a task in a given period of time?", 
+        "codeQuestion": "",
+        "code": [],
+        "possibleAnswers": [""], 
+        "correctAnswers": [""],
+        "type": "questionnaire",
+        "duration": ""
+
+    },
+    {
+        "count": 36,
+        "question": "What measures and paths would you take, if you felt you were unable to finish a task in 10 days?", 
+        "codeQuestion": "",
+        "code": [],
+        "possibleAnswers": ["I would suggest cancelling the project. The supervisor would also like the idea of me not putting the company at risk. ", "I tackle this problem by doing extra research and extra work. I would also suggest a request for delaying the project, to my supervisor. ", "I would ask another colleague to do the project because I wasn’t able to do it. I would take on another bigger project.", "I would ask another colleague’s help."], 
+        "correctAnswers": [""],
+        "type": "questionnaire",
+        "duration": ""
+
+    },
+    {
+        "count": 37,
+        "question": "How do you adapt with the fact that you are not a committed person?", 
+        "codeQuestion": "",
+        "code": [],
+        "possibleAnswers": [""], 
+        "correctAnswers": [""],
+        "type": "questionnaire",
+        "duration": ""
+
+    },
+    {
+        "count": 38,
+        "question": "Tell us about a time when you remained calm during a stressful situation.", 
+        "codeQuestion": "",
+        "code": [],
+        "possibleAnswers": [""], 
+        "correctAnswers": [""],
+        "type": "questionnaire",
+        "duration": ""
+
+    },
+    {
+        "count": 39,
+        "question": "How was it when you had to work with a difficult co-worker?", 
+        "codeQuestion": "",
+        "code": [],
+        "possibleAnswers": ["Bad", "Too bad", "Fine", "Good", "Not bad at all", "Easy"], 
+        "correctAnswers": [""],
+        "type": "questionnaire",
+        "duration": ""
+    },
+    {
+        "count": 40,
+        "question": "Describe an instance when you made a significant mistake:", 
+        "codeQuestion": "",
+        "code": [],
+        "possibleAnswers": [""], 
+        "correctAnswers": [""],
+        "type": "questionnaire",
+        "duration": ""
+    }
+
+]
+
+
+
+
+
+
+
+

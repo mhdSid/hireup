@@ -1,0 +1,465 @@
+@font-face {
+	font-family: 'Symbols';
+	src: url('font.ttf');
+}
+
+@font-face {
+	font-family: 'Numeric';
+	src: url('DS-DIGIT.TTF');
+}
+
+/*#tt:active {
+	border: 2px solid #ECE317;
+}*/
+
+/*#tt:focus {
+	border: 2px solid #ECE317;
+}
+
+#tt {
+	border: 2px solid #3863a0;
+}*/
+
+#yyy {
+	color : #3863a0;
+	font-size : 75px;
+	cursor: pointer;
+}
+
+
+/*.navigation-right{
+	color :  #3863a0;
+	font-size : 75px;
+	cursor: pointer;
+}
+
+.navigation-right:after{
+	content: '\f012';
+	font-family: 'Symbols';
+}
+
+.navigation-right:hover{
+	color: rgb( 81, 150, 255); //#ECE317
+	text-shadow : 0px 0px 10px rgb(  81, 150, 255); //#F8CB0E //81, 203, 238
+}*/
+
+.navigation-right{
+	cursor: pointer;
+	font-size : 75px;
+	color: #3863a0;
+	text-shadow : 0px 0px 10px #F8CB0E;
+}
+
+.navigation-right:after{
+	content: '\f012';
+	font-family: 'Symbols';
+}
+
+.navigation-right:hover{
+	color :  #ECE317;
+	font-size : 75px;
+}
+
+#yyy:hover{
+	color:  #ECE317;
+	text-shadow : 0px 0px 10px #F8CB0E;
+}
+
+
+#input:hover  {
+  border: 3px solid #ECE317;
+}
+
+#input:focus  {
+  border: 3px solid #ECE317;
+}
+
+#jumbo {
+	border: 3px solid #204272;
+}
+
+#jumbo:hover {
+	border: 3px solid #ECE317;
+}
+
+
+.progress.active .progress-bar {
+    -webkit-transition: none !important;
+    transition: none !important;
+}
+
+
+.ball {
+    width: 10px;
+    height: 10px;
+    padding-top: 5px;
+    margin-top: 15px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px; 
+    background: #3863a0;
+}
+
+.ball3 {
+    /*width: 200px;
+    height: 100px;
+    padding-top: 5px;
+    margin-top: 15px;
+    position: fixed;
+    top: 40%;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 225px; 
+    background: #3863a0; 
+    opacity: 0.6;*/
+    top: 23%;
+  	width: 200px;
+  	height: 200px;
+  	
+  	background-color: #3863a0;
+  	border-radius: 50%;
+  	/*box-shadow: inset -25px -25px 40px rgba(0,0,0,.5);*/
+  	box-shadow : inset -25px -25px 40px #3863b0;
+  	background-image: -webkit-linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%);
+	background-image: -moz-linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%);  
+	background-image: -o-linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%);
+	background-image: -ms-linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%);
+}
+
+#showerr
+{
+	color: #000;
+	opacity: 0.5;
+	font-family : 'Symbols';
+}
+
+
+
+
+
+
+#ballOuter
+{
+	position: fixed; 
+	left: 1%; 
+	top: 34%;
+}
+
+#clockLine
+{
+	position: fixed; 
+	top: 0%; 
+	height: 35.5%; 
+	z-index: 666; 
+	left: 0%; 
+	width: 18%;
+}
+#clockLine1
+{
+	position: fixed; 
+	top: 0%; 
+	height: 35.5%; 
+	z-index: 666; 
+	left: -6%; 
+	width: 18%;
+}
+#clockLine2
+{
+	position: fixed; 
+	bottom: 0%; 
+	height: 40.7%; 
+	z-index: 666; 
+	left: -6%; 
+	width: 18%;
+}
+#clockLine3
+{
+	position: fixed; 
+	bottom: 0%; 
+	height: 40.7%; 
+	z-index: 666; 
+	left: 0%; 
+	width: 18%;
+}
+
+#timOuter
+{
+	position: fixed; 
+	width: 20%; 
+	height: 100px; 
+	z-index: 999; 
+	left: 3%;
+}
+
+#timeout
+{
+	/*color: #3863b9; */
+	/*color: #67a2d4;*/
+	color: #fff;
+	font-size: 45px; 
+	top: 43%; 
+	font-weight: normal; 
+	left: 2.9%; 
+	position: fixed; 
+	width: 10%;
+	font-family: "Numeric";
+}
+
+.progress
+{
+	background: #999999; 
+	//opacity: 0.4; 
+	position: absolute; 
+	width: 60.8%; 
+	top: 22.8%; 
+	right: 19.2%; 
+	height: 1.5%; 
+	z-index: 333; 
+	-webkit-border-radius: 1px; 
+	-moz-border-radius: 1px; 
+	z-index: 5555;
+}
+
+.progress-bar
+{
+	color: #690708; 
+	width: 0%; 
+	background: #3863a0;
+}
+
+#questionCount
+{
+	color: #ffa; 
+	font-weight: normal; 
+	position: absolute; 
+	top: 24%; 
+	right: 19.5%; 
+	z-index: 336;
+	font-family : 'Symbols';
+}
+
+
+
+#tt
+{
+	border: 2px solid #fff;
+	background: #e0e0e0; 
+	left: 13%; 
+	cursor: pointer; 
+	z-index: 333;
+}
+
+#PANEL
+{
+	//opacity: 0.6;
+
+}
+
+#panelheading
+{
+	background: #e0e0e0; 
+	opacity: 0.4;
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px;
+}
+
+
+
+#questionHeader
+{
+	color: #fff; 
+	font-size: 18px; 
+	font-weight: normal;
+	font-family : 'Symbols';
+}
+
+#questionss
+{
+	text-align: right;
+}
+
+
+#quest
+{
+	font-family: 'Symbols';
+	//font-weight: normal;
+	font-size: 20px;
+	color: #000;
+}
+
+#codeImg
+{
+	width: 39%;
+}
+
+#codeQuestionn
+{
+	color: #000; 
+	opacity: 0.6;
+	font-weight: normal;
+}
+
+.checck
+{
+	color: #3b7db5; 
+	font-weight: normal;
+	font-family : 'Symbols';
+	text-decoration: none;
+	text-align: justify;
+    text-align: left;
+}
+
+
+
+
+
+
+#input1
+{
+	color: #000;
+	 opacity: 0.4;
+	 //border: 3px solid #F8CB0E;
+	 font-family : 'Symbols';
+
+}
+
+#input1:focus
+{
+	//border: 3px solid #F8CB0E;
+	opacity: 0.6;
+
+	  box-shadow: 0 0 10px rgb(81, 203, 238); //89,163,90
+  padding: 3px 0px 3px 3px;
+  //margin: 5px 1px 3px 0px;
+  border: 1px solid rgb(89,163,90);
+
+}
+
+#questionnaireQuest
+ {
+	left: 15%;
+	background: #3863a0; 
+	height: 10%; 
+	position: fixed; 
+	font-family : 'Symbols';
+}
+
+#qqq
+{
+	position: fixed; 
+	left: 15%; 
+	top: 35%;
+	height: 10%;
+	width: 40%;
+}
+
+ .button 
+ {
+	display : inline-block;
+	margin : 0 7px;
+	color : white;
+	line-height : 60px;
+	height : 40px;
+	float : none;
+	border-radius : 0;
+	//outline : 1px solid #111111;
+	border : 1px solid #646A6B;
+	border-bottom-width : 0;
+	background : #3863a0; 
+	cursor: pointer;
+	 -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px; 
+    top: 69%;
+    left: 33.5%;
+    position: fixed;
+    width: 23%;
+    opacity: 0.8;
+    font-family : 'Symbols';
+}
+
+#content 
+{
+	position: absolute;
+	bottom: -9px;
+	left: 40%;
+	font-family : 'Symbols';
+}
+
+.button:hover 
+{
+	color: #ECE317;
+	text-shadow : 0px 0px 10px #F8CB0E;
+}
+
+#vertical
+{
+	position: fixed; 
+	top: 35%; 
+	height: 33%; 
+	z-index: 666; 
+	right: 6%; 
+	width: 1%;
+}
+
+
+#redirectHeader
+{
+	color: #ECE317; /*#ECE317; #3863a0;*/
+	font-family : 'Symbols';
+}
+
+#userBox
+{
+	position: fixed; 
+	left: 26%; 
+	top: 35%; 
+	border: 2px solid #ECE317;
+	font-family : 'Symbols';
+}
+
+
+#questionnaireQuestHeader
+{
+	font-size: 20px; 
+	font-weight: normal; 
+	color: #fff; 
+	position: relative; 
+	bottom: 15px;
+	font-family : 'Symbols';
+}
+
+#textarea
+{
+	position: fixed; 
+	width: 45%; 
+	height: 15%; 
+	opacity: 0.4;
+	color: black;
+	font-family : 'Symbols';
+}
+
+.questionnaireButton
+{
+	background: #ccc; 
+	color: #3863a0; 
+	font-family : 'Symbols';
+}
+
+.questionnaireButton:hover
+{
+	background: #ECE317; 
+	color: #3863a0; 
+	font-family : 'Symbols';
+}
+
+#ballsss
+{
+	position: fixed; 
+	right: 20%; 
+	top: 45%;
+	font-family : 'Symbols';
+}
+
+
+

@@ -1,0 +1,105 @@
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+<!-- CLOCK -->
+<img src="1234.png" id="clockLine"></img>
+<img src="1234.png" id="clockLine1"></img>
+
+<img src="1234.png" id="clockLine2"></img>
+<img src="1234.png" id="clockLine3"></img>
+
+<div id="timOuter">
+  <div id="timeout">{{counter | formatTime}}</div> 
+</div>
+
+<div id="ballOuter">
+    <div class="ball3" id="ball3" /> 
+</div>
+
+
+
+
+<!-- Progress BAr -->
+<div class="progress">
+  <div class="progress-bar progress-bar-success " id="progressBar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">  
+  </div> 
+</div>
+
+
+
+<!--   #3863a0;   -->
+
+<div id="questionCount"> {{questionn.count}} / 33 </div>
+
+
+<div class="container" id="PANEL"> 
+  
+  <div class="row">
+
+     <p> 
+
+      <div id="tt" class="panel panel-default col-lg-9 col-md-8 col-sm-9 col-xs-10">
+
+            <div class="panel-heading" id="panelheading" ng-href="#{{questionn.count}}">
+            
+                <h3> <div id="quest">{{questionn.question}}</div> </h3>  
+
+            </div> 
+
+             <div class="panel-body">
+
+                <div ng-repeat=" code in questionn.code" style="" ng-hide="lengthh == 0">
+                  <img src="{{code}}" id="codeImg"></img>
+                </div> 
+
+                <p id="codeQuestionn" ng-hide="lengthh == 0">{{questionn.codeQuestion}}</p>
+
+                <div ng-repeat="answer in questionn.possibleAnswers"> 
+
+                    <p>
+                        <input type="checkbox" name="answer" id="checkbox{{$index}}">&nbsp;&nbsp;<a class="checck" id="answer{{$index}}" style="text-align: justify; text-justify: initial; padding-left: 1%; text-align: left;">{{answer}}
+                      </a></input> <!---->
+                    </p>
+            
+                </div> 
+            </div> 
+        </div> 
+
+    </p> 
+
+</div>  <!-- /row -->     
+</div> <!-- /container -->
+
+
+<!-- Navigation Right -->
+<div style="position: fixed; top: 45%; right: 2%; height: 20%; z-index: 4444;">
+    <div class="navigation-right" ng-click="next()"></div>
+</div>
+
+ <img src="1234.png" id="vertical"></img>
+
+
+
+
+  
+
+
+
+
+
+
+  
+
